@@ -1,5 +1,5 @@
-// Package libgollatz will take a n integer, perform the collatz aalgorithm on it,
-// and then put each value ithits into a linked list, which will then be
+// Package libgollatz will take a n integer, perform the collatz algorithm on it,
+// and then put each value it hits into a linked list, which will then be
 // put into an array. Then it will return a Result consisting of the original
 // value and the array of values.
 package libgollatz
@@ -7,7 +7,7 @@ package libgollatz
 import "container/list"
 
 // Result is made up of the initial value and an array containing all
-// of the steps to get to 1 using the Collatz algorithm
+// of the steps to get to 1 using the Collatz algorithm.
 type Result struct {
 	Value uint64
 	Steps []uint64
