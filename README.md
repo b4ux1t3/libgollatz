@@ -4,4 +4,5 @@
 
 # FAQ
 Q. Why are you using the `Result` struct instead of mapping an input to an array or list of outputs?
+
 A. Because we might eventually want to store more information than just the number of steps and the outputs.
